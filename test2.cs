@@ -20,7 +20,7 @@ namespace TEST
             {
                 SqlCommand sqlCommand = new SqlCommand()
                 {
-                    CommandText = "SELECT ProductId FROM Products WHERE ProductName = '" + name + "'",
+                    CommandText = "SELECT ProductId FROM Products WHERE ProductName = '" + name + "';",
                     CommandType = CommandType.Text,
                 };
 
